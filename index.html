@@ -5,29 +5,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="main_container">
-    <div class="left_content">
-      <h1>Get insights that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.</p>
-      <div class="content_box">
-        <div class="content_box_box companies">
-          <p>10k+</p>
-          <p>companies</p>
+    <div class="sub_container">
+      <div class="left_content">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p class="sub_title">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</p>
+        <div class="content_box">
+          <div class="content_box_container">
+            <div class="content_box_main">
+              <p>10k+</p>
+            </div>
+            <div class="content_box_sub">
+              <p>companies</p>
+            </div>
+          </div>
+          <div class="content_box_container">
+            <div class="content_box_main">
+              <p>314</p>
+            </div>
+            <div class="content_box_sub">
+              <p>templates</p>
+            </div>
+          </div>
+          <div class="content_box_container">
+            <div class="content_box_main">
+              <p>12m+</p>
+            </div>
+            <div class="content_box_sub">
+              <p>queries</p>
+            </div>
+          </div>
         </div>
-        <div class="content_box_box templates">
-          <p>314</p>
-          <p>templates</p>
-        </div>
-        <div class="content_box_box queries">
-          <p>12m+</p>
-          <p>queries</p>
-        </div>
+      </div>
+      <div class="right_image_component">
+        <img src="images/image-header-desktop.jpg" alt="">
       </div>
     </div>
   </div>
